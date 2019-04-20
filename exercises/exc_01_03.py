@@ -1,11 +1,14 @@
-import json
+import altair as alt
+from vega_datasets import data
 
-# This code will run relative to the root of the repo, so we can load files
-with open("exercises/bookquotes.json") as f:
-    DATA = json.loads(f.read())
+source = data.us_employment()
 
-# Print the first record in the DATA
-print(___[____])
-
-# Assign the length of DATA to some_var
-some_var = ___
+alt.Chart(___).mark_bar().encode(
+    x="___:T",
+    y="nonfarm_change:Q",
+    color=alt.condition(
+        alt.datum.nonfarm_change > 0,
+        alt.value("steelblue"),  # The positive color
+        alt.value("____")  # The negative color
+    )
+).properties(width=___)
