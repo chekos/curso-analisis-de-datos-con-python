@@ -1,1 +1,5 @@
 wasabi>=0.2.1,<1.1.0
+altair
+vega_datasets
+vega
+pandas
