@@ -1,14 +1,17 @@
-import altair as alt
+# importa tus librerias
+import ____ as alt
 from vega_datasets import data
 
+# tus datos
 source = data.us_employment()
 
-alt.Chart(___).mark_bar().encode(
-    x="___:T",
+# crea una visualización
+alt.Chart(____).mark_bar().encode(
+    x="month:T",
     y="nonfarm_change:Q",
     color=alt.condition(
         alt.datum.nonfarm_change > 0,
         alt.value("steelblue"),  # The positive color
-        alt.value("____")  # The negative color
+        alt.value("_____")  # The negative color
     )
-).properties(width=___)
+).properties(width=600)
