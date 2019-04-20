@@ -1,8 +1,7 @@
 ---
-title: 'Chapter 1: Getting started'
+title: 'Capítulo 0: Comenzando con python'
 description:
-  'This chapter will teach you about many cool things and introduce you to the
-  most important concepts of the course.'
+  'Este capítulo es la introducción al curso. En él aprenderás lo necesario para comenzar a programar en python.'
 prev: null
 next: /chapter2
 type: chapter
@@ -18,24 +17,24 @@ id: 1
 
 <exercise id="2" title="Getting Started">
 
-Let's ask some questions about the slides. Whats the correct answer?
+Este es un ejemplo de la infrastructura del curso. Tendremos preguntas de opción multiple:
 
 <choice>
-<opt text="Answer one">
+<opt text="Respuesta 1">
 
-This is not the correct answer.
-
-</opt>
-
-<opt text="Answer two" correct="true">
-
-Good job!
+Esta no es la respuesta correcta.
 
 </opt>
 
-<opt text="Answer three">
+<opt text="Respuesta 2" correct="true">
 
-This is not correct either.
+¡Bien hecho!
+
+</opt>
+
+<opt text="Respuesta 3">
+
+Nop.
 
 </opt>
 </choice>
@@ -44,17 +43,11 @@ This is not correct either.
 
 <exercise id="3" title="First steps">
 
-This is a code exercise. The content can be formatted in simple Markdown – so
-you can have **bold text**, `code` or [links](https://spacy.io) or lists, like
-the one for the instructions below.
-
-- These are instructions and they can have bullet points.
-- The code block below will look for the files `exc_01_03`, `solution_01_03` and
-  `test_01_03` in `/exercises`.
+También tenemos ejercicios de código. 
 
 <codeblock id="01_03">
 
-This is a hint.
+También tendrémos pistas en los ejercicios.
 
 </codeblock>
 
