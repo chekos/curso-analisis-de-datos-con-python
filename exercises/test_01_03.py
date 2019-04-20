@@ -5,7 +5,7 @@ def test():
     # in the meta.json for details.
 
     # If an assertion fails, the message will be displayed
-    assert "print(DATA[0])" in __solution__, "Are you printing the first record?"
-    assert some_var == len(DATA), "Are you getting the correct length?"
+    assert "import altair as alt" in __solution__, "¿Estás importando `altair` como `alt`?"
+    assert source==data.us_unemployment(), "¿Estas asignado data.us_unemployment() a source?"
 
-    __msg__.good("Well done!")
+    __msg__.good("¡Muy bien!")
