@@ -69,7 +69,8 @@ class Juniper extends React.Component {
             factory.mimeTypes.includes('text/latex') ? window.MathJax : true
         )
         renderers.push(vegaRenderer)
-
+        console.log(renderers)
+        
         const outputArea = new OutputArea({
             model: new OutputAreaModel({ trusted: true }),
             rendermime: new RenderMimeRegistry({ initialFactories: renderers }),
