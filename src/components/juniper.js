@@ -5,6 +5,7 @@ import { Widget } from '@phosphor/widgets'
 import { Kernel, ServerConnection } from '@jupyterlab/services'
 import { OutputArea, OutputAreaModel } from '@jupyterlab/outputarea'
 import { RenderMimeRegistry, standardRendererFactories } from '@jupyterlab/rendermime'
+import { rendererFactory } as vegaRenderer from "@jupyterlab/vega5-extension'
 import { window } from 'browser-monads'
 
 class Juniper extends React.Component {
@@ -67,6 +68,7 @@ class Juniper extends React.Component {
         const renderers = standardRendererFactories.filter(factory =>
             factory.mimeTypes.includes('text/latex') ? window.MathJax : true
         )
+        renderers.push(vegaRenderer)
 
         const outputArea = new OutputArea({
             model: new OutputAreaModel({ trusted: true }),
