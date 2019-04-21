@@ -5,7 +5,7 @@ import { Widget } from '@phosphor/widgets'
 import { Kernel, ServerConnection } from '@jupyterlab/services'
 import { OutputArea, OutputAreaModel } from '@jupyterlab/outputarea'
 import { RenderMimeRegistry, standardRendererFactories } from '@jupyterlab/rendermime'
-import { rendererFactory as vegaRenderer } from "@jupyterlab/vega3-extension'
+import { rendererFactory as vegaRenderer } from '@jupyterlab/vega3-extension'
 import { window } from 'browser-monads'
 
 class Juniper extends React.Component {
