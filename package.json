@@ -38,7 +38,7 @@
         "rehype-react": "^3.1.0",
         "remark-react": "^5.0.1",
         "reveal.js": "^3.8.0",
-        "requirejs": "^2.3.6"
+        "@jupyterlab/vega5-extension": "^1.0.0"
     },
     "scripts": {
         "build": "gatsby build",
