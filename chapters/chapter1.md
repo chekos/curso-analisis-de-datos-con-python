@@ -7,6 +7,9 @@ next: /chapter2
 type: chapter
 id: 1
 ---
+<script src="https://cdn.jsdelivr.net/npm//vega@3.3.1"></script>
+<script src="https://cdn.jsdelivr.net/npm//vega-lite@2.4.3"></script>
+<script src="https://cdn.jsdelivr.net/npm//vega-embed@3.11"></script>
 
 <exercise id="1" title="Introduction" type="slides">
 
