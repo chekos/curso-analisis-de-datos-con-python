@@ -70,11 +70,17 @@ class Juniper extends React.Component {
         )
         vegaRenderer.defaultRank = 50
         renderers.push(vegaRenderer)
+
+        const mockResolver = {
+           resolveUrl: () => new Promise(resolve => resolve('')),
+           getDownloadUrl: () => new Promise(resolve => resolve('')),
+        }
+
         console.log(renderers)
         
         const outputArea = new OutputArea({
             model: new OutputAreaModel({ trusted: true }),
-            rendermime: new RenderMimeRegistry({ initialFactories: renderers }),
+            rendermime: new RenderMimeRegistry({ initialFactories: renderers, resolver: mockResolver }),
         })
 
         const cm = new CodeMirror(this.inputRef, {
