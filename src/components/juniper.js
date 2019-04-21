@@ -68,6 +68,7 @@ class Juniper extends React.Component {
         const renderers = standardRendererFactories.filter(factory =>
             factory.mimeTypes.includes('text/latex') ? window.MathJax : true
         )
+        vegaRenderer.defaultRank = 50
         renderers.push(vegaRenderer)
         console.log(renderers)
         
