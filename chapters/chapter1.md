@@ -8,14 +8,14 @@ type: chapter
 id: 1
 ---
 
-<exercise id="1" title="Introduction" type="slides">
+<exercise id="1" title="Introducción" type="slides">
 
 <slides source="chapter1_01_introduction">
 </slides>
 
 </exercise>
 
-<exercise id="2" title="Getting Started">
+<exercise id="2" title="Comenzando">
 
 Este es un ejemplo de la infrastructura del curso. Tendremos preguntas de opción multiple:
 
@@ -41,7 +41,7 @@ Nop.
 
 </exercise>
 
-<exercise id="3" title="First steps">
+<exercise id="3" title="Primeros pasos">
 
 También tenemos ejercicios de código. 
 
