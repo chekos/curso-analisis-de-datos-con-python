@@ -14,4 +14,4 @@ alt.Chart(source).mark_bar().encode(
         alt.value("steelblue"),  # The positive color
         alt.value("orange")  # The negative color
     )
-).properties(width=600)
+).properties(width=500).configure(background="#FFFFFF")
