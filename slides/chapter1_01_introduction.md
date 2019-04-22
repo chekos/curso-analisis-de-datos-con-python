@@ -2,14 +2,15 @@
 type: slides
 ---
 
-# Introduction
+# Introducción
 
-Notes: Text at the end of a slide prefixed like this will be displayed as
-speaker notes on the side. Slides can be separated with a divider: ---.
+Este es un curso introductorio a el análisis de datos con `python`
+
+Notes: Aqui van las instrucciones. 
 
 ---
 
-# This is a slide
+# Elementos del curso
 
 ```python
 # Print something
@@ -20,20 +21,15 @@ print("Hello world")
 Hello world
 ```
 
-- Slides can have code, bullet points, tables and pretty much all other Markdown
-  elements.
-- This is another bullet point.
+- Va a haber bloques de código como los que ves aquí arriba. 
 
 <img src="profile.jpg" alt="This image is in /static" width="25%">
 
-Notes: Some more notes go here
+Notes: también vamos a tener ejercicios interactivos donde podrás ejecutar código. 
 
 ---
 
-# Let's practice!
+# ¡Practiquemos!
 
-Notes: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique
-libero at est congue, sed vestibulum tortor laoreet. Aenean egestas massa non
-commodo consequat. Curabitur faucibus, sapien vitae euismod imperdiet, arcu erat
-semper urna, in accumsan sapien dui ac mi. Pellentesque felis lorem, semper nec
-velit nec, consectetur placerat enim.
+
+Notes: ¡Al infinito y más allá!.
